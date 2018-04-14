@@ -1,0 +1,594 @@
+@import url(../css/normalize.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.75;
+  font-family: Gilroy, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+  color: #333; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.text-center {
+  text-align: center; }
+
+.main-header .header-icon {
+  padding: 0 20px; }
+
+.main-header .logo-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  padding-left: 20px; }
+  .main-header .logo-header h1 {
+    margin: 0; }
+  .main-header .logo-header h2 {
+    color: #2e469c;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0; }
+
+.main-header .phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  font-family: "Gilroy - Semibold";
+  font-size: 24px;
+  font-weight: 400; }
+  .main-header .phone a {
+    color: #000; }
+
+.main-header .sr-version {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  margin-right: 10px; }
+  .main-header .sr-version a {
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500; }
+  .main-header .sr-version .header-icon {
+    font-size: 30px; }
+
+.main-header .online-learning {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  background-color: #2e469c;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+  .main-header .online-learning a {
+    font-size: 16px;
+    color: #ffffff; }
+  .main-header .online-learning .header-icon {
+    font-size: 30px;
+    color: #fff; }
+
+.main-header .search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f7f7;
+  min-height: 100%;
+  margin: auto; }
+
+.navigation {
+  background-color: #2e469c;
+  height: 100%;
+  padding: 90px 20px 0px 50px;
+  border-bottom: 1px solid #5367ad; }
+  .navigation li {
+    margin-bottom: 15px; }
+  .navigation .nav-item {
+    color: #fff;
+    opacity: 0.85;
+    -webkit-transition: opacity, .2s ease;
+    -o-transition: opacity, .2s ease;
+    transition: opacity, .2s ease; }
+  .navigation .nav-item:hover {
+    opacity: 1; }
+
+.s-header {
+  font-family: "Gilroy - Semibold";
+  font-size: 38px;
+  font-weight: 400; }
+  .s-header h2 {
+    margin: 0 !important; }
+
+.heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .heading .all {
+    display: block;
+    margin-left: auto;
+    color: #5593ad; }
+  .heading .arrows {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 80px;
+    color: #e1e1e1; }
+    .heading .arrows .arrow {
+      font-size: 20px;
+      border: 1px solid #e1e1e1;
+      padding: 5px 20px;
+      -webkit-transition: color .25s ease;
+      -o-transition: color .25s ease;
+      transition: color .25s ease; }
+    .heading .arrows .arrow:hover {
+      color: #000; }
+
+.top-slider {
+  background: url(../img/slider-bg.png) #7c80d9;
+  min-height: 50vh; }
+  .top-slider .slider-item {
+    outline: none;
+    margin: 0 0 0 60px;
+    padding: 40px 0; }
+    .top-slider .slider-item .start-at {
+      display: block;
+      text-align: center;
+      width: 165px;
+      background-color: #fff;
+      margin: 60px 0 0 0;
+      padding: 5px; }
+    .top-slider .slider-item h2 {
+      padding: 5px;
+      font-size: 42px; }
+    .top-slider .slider-item .slide-description {
+      display: block;
+      width: 80%;
+      font-family: Gilroy;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 36px; }
+    .top-slider .slider-item .top-price {
+      font-family: "Gilroy - Semibold";
+      font-size: 38px;
+      font-weight: 400; }
+    .top-slider .slider-item .bottom-info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 50px 0; }
+    .top-slider .slider-item .more-info {
+      margin-left: 80px;
+      color: #fff;
+      padding: 15px 70px 15px 40px;
+      background-color: #d90a01; }
+
+.courses {
+  border-bottom: 1px solid #ebebeb; }
+  .courses img {
+    width: 90%; }
+  .courses .course {
+    padding: 50px; }
+    .courses .course .course-info {
+      background-color: #fff; }
+      .courses .course .course-info p {
+        width: 100%; }
+    .courses .course .course-details {
+      display: -webkit-box !important;
+      display: -webkit-flex !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .courses .course .course-details .price {
+        font-family: "Gilroy - Semibold";
+        font-size: 28px;
+        font-weight: 400; }
+      .courses .course .course-details .join {
+        display: block;
+        text-align: center;
+        padding: 10px 30px 10px 10px;
+        font-size: 16px;
+        font-weight: 500;
+        width: 50%;
+        margin-left: auto;
+        border: 1px solid #d90a01;
+        color: #d90a01;
+        -webkit-transition: background-color, .3s ease;
+        -o-transition: background-color, .3s ease;
+        transition: background-color, .3s ease; }
+      .courses .course .course-details .join:hover {
+        background-color: orange;
+        opacity: 0.8; }
+
+.news .news-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; }
+  .news .news-list .news-item {
+    grid-column: 1;
+    border-bottom: 2px solid #ebebeb; }
+    .news .news-list .news-item:nth-child(1) {
+      grid-column: 1/3;
+      grid-row: 1/3; }
+    .news .news-list .news-item:nth-child(2) {
+      grid-column: 3/4; }
+    .news .news-list .news-item:nth-child(3) {
+      grid-column: 4/5; }
+    .news .news-list .news-item:nth-child(4) {
+      grid-column: 3/4; }
+    .news .news-list .news-item:nth-child(5) {
+      grid-column: 4/5; }
+    .news .news-list .news-item .to-read {
+      text-decoration: none;
+      color: #000;
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 500; }
+
+.reviews {
+  padding: 70px 0; }
+  .reviews .s-header {
+    font-family: "Gilroy - Semibold";
+    font-size: 28px;
+    font-weight: 400; }
+    .reviews .s-header h2 {
+      margin: 0 !important; }
+  .reviews .review {
+    padding: 20px; }
+    .reviews .review .review-text {
+      color: #5b5b5b;
+      font-family: Georgia;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 30px; }
+    .reviews .review .author {
+      font-weight: 500;
+      font-size: 18px; }
+    .reviews .review .position {
+      color: #7f7f7f;
+      font-size: 14px; }
+
+.useful-res {
+  background-color: #fafafa;
+  padding: 50px 20px; }
+  .useful-res .res-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+
+.main-footer {
+  padding: 60px 20px 40px;
+  color: #ffffff;
+  background-color: #3d3f46;
+  font-family: Gilroy; }
+  .main-footer .copyright {
+    font-size: 14px; }
+  .main-footer .footer-phone {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 36px; }
+  .main-footer .footer-adress {
+    font-size: 14px; }
+  .main-footer .soc-networks {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 30px; }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-header .search {
+    min-height: 20vh; }
+  .top-slider {
+    min-height: 50vh; }
+    .top-slider .slider-item {
+      outline: none;
+      margin: 0;
+      padding: 40px 0; }
+      .top-slider .slider-item .start-at {
+        margin: 0 20px;
+        display: block;
+        text-align: center;
+        width: 165px;
+        background-color: #fff;
+        padding: 5px; }
+      .top-slider .slider-item h2 {
+        margin: 0;
+        padding: 10px;
+        font-size: 42px; }
+      .top-slider .slider-item .slide-description {
+        display: block;
+        width: 80%;
+        font-family: Gilroy;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 10px; }
+      .top-slider .slider-item .top-price {
+        font-family: "Gilroy - Semibold";
+        font-size: 38px;
+        font-weight: 400; }
+      .top-slider .slider-item .bottom-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 50px 0; }
+      .top-slider .slider-item .more-info {
+        margin-left: 80px;
+        color: #fff;
+        padding: 15px 70px 15px 40px;
+        background-color: #d90a01; }
+  .news .news-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; }
+    .news .news-list .news-item {
+      grid-column: 1/3;
+      border-bottom: 2px solid #ebebeb; }
+      .news .news-list .news-item:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1; }
+      .news .news-list .news-item:nth-child(2) {
+        grid-column: 1/2; }
+      .news .news-list .news-item:nth-child(3) {
+        grid-column: 2/3; }
+      .news .news-list .news-item:nth-child(4) {
+        grid-column: 1/2; }
+      .news .news-list .news-item:nth-child(5) {
+        grid-column: 2/3; }
+      .news .news-list .news-item .to-read {
+        text-decoration: none;
+        color: #000;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 200; }
+  .reviews {
+    padding: 20px 0; }
+    .reviews .review {
+      padding: 20px; }
+      .reviews .review .review-text {
+        color: #5b5b5b;
+        font-family: Georgia;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 30px; }
+      .reviews .review .author {
+        font-weight: 500;
+        font-size: 18px; }
+      .reviews .review .position {
+        color: #7f7f7f;
+        font-size: 14px; }
+  .main-footer {
+    text-align: center;
+    padding: 20px 20px 20px;
+    color: #ffffff;
+    background-color: #3d3f46;
+    font-family: Gilroy; }
+    .main-footer .copyright {
+      display: none; }
+    .main-footer .footer-phone {
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 36px; }
+    .main-footer .footer-adress {
+      font-size: 20px; }
+    .main-footer .soc-networks {
+      padding: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 30px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px 10px; }
+    .heading .all {
+      padding: 10px;
+      display: block;
+      margin: auto;
+      color: #5593ad; }
+    .heading .arrows {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-left: 80px;
+      color: #e1e1e1; }
+      .heading .arrows .arrow {
+        font-size: 20px;
+        border: 1px solid #e1e1e1;
+        padding: 5px 20px;
+        -webkit-transition: color .25s ease;
+        -o-transition: color .25s ease;
+        transition: color .25s ease; }
+      .heading .arrows .arrow:hover {
+        color: #000; }
+  .courses img {
+    width: 100%; }
+  .news .news-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px; }
+    .news .news-list .news-item {
+      grid-column: 1;
+      border-bottom: 2px solid #ebebeb; }
+      .news .news-list .news-item:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1; }
+      .news .news-list .news-item:nth-child(2) {
+        grid-column: 1; }
+      .news .news-list .news-item:nth-child(3) {
+        grid-column: 1; }
+      .news .news-list .news-item:nth-child(4) {
+        grid-column: 1; }
+      .news .news-list .news-item:nth-child(5) {
+        grid-column: 1; }
+      .news .news-list .news-item .to-read {
+        text-decoration: none;
+        color: #000;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 200; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
